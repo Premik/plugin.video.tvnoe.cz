@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.tvnoe.cz" name="Televize Noe" provider-name="Premysl Srubar" version="0.5.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.stream.resolver" version="1.6.24" />  
+    <import addon="script.module.dmd-czech.common" version="1.5.8" />
+  <!--  <import addon="script.module.pydevd" version="3.4.1"/>-->
+      
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">tvnoe.cz</summary>
+    <summary lang="cs">tvnoe.cz</summary>
+    <description lang="en">TV Noe</description>
+    <description lang="cs">Televize Noe, televize dobrých zpráv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
